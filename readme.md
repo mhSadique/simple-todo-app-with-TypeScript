@@ -1,4 +1,4 @@
-# This is an starter TypeScript project
+# This is a starter TypeScript project
 
 ### New things learned:
 
