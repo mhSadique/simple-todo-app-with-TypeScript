@@ -26,3 +26,5 @@ const form = document.getElementById(
   '#new-task-form',
 ) as HTMLFormElement | null;
 ```
+
+![when html element is 'null'](md_images/1.png)
