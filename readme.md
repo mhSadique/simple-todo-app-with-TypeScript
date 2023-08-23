@@ -27,4 +27,7 @@ const form = document.getElementById(
 ) as HTMLFormElement | null;
 ```
 
-![when html element is 'null'](md_images/1.png)
+### Issues to resolve later
+
+- When I used `===` (triple equal) operator in the comparison, the html element is null![when html element is 'null'](md_images/1.png)
+- But when I used `==` (double equal) operator in the comparison, the html element is not null strangely! Need to find out why.![when html element is 'null'](md_images/2.png)
