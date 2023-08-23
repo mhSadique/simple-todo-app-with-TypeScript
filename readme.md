@@ -7,7 +7,19 @@
 
 ### New things learned about DOM and TS:
 
-- You can use TS code below to find an HTML element `js const list = document.querySelector<HTMLUListElement>('#list'); `
+- You can use TS code below to find an HTML element. Note that `document.querySelector<T>()` takes a `generic` as a paramater, like below:
+
+```js
+const list = document.querySelector < HTMLUListElement > '#list';
+```
+
+- But not all methods take `generic` as parameter, such as:
+
+```js
+const form = document.getElementById(
+  '#new-task-form',
+) as HTMLFormElement | null;
+```
 
 ### Limitation of using different npm packages without a bundler
 
