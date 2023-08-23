@@ -7,11 +7,7 @@
 
 ### New things learned about DOM and TS:
 
-- You can use TS code below to find an HTML element
-
-```js
-const list = document.querySelector < HTMLUListElement > '#list';
-```
+- You can use TS code below to find an HTML element `js const list = document.querySelector<HTMLUListElement>('#list'); `
 
 ### Limitation of using different npm packages without a bundler
 
