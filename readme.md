@@ -7,10 +7,10 @@
 
 ### New things learned about DOM and TS:
 
-- You can use TS code below to find an HTML element. Note that `document.querySelector<T>()` takes a `generic` as a paramater, like below:
+- You can use TS code below to find an HTML element. Note that `document.querySelector<T>()` takes a `generic` as a paramater, like below: (note: the line below is being distorted, so here is the original line `const input = document.querySelector<HTMLInputElement>('#new-task-title');`)
 
 ```js
-const list = document.querySelector < HTMLUListElement > '#list';
+const input = document.querySelector < HTMLInputElement > '#new-task-title';
 ```
 
 - But not all methods take `generic` as parameter, such as:

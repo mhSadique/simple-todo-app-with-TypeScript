@@ -5,3 +5,5 @@ const form = document.getElementById(
   '#new-task-form',
 ) as HTMLFormElement | null;
 const input = document.querySelector<HTMLInputElement>('#new-task-title');
+
+form?.blur();
