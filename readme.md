@@ -23,7 +23,7 @@ const input = document.querySelector < HTMLInputElement > '#new-task-title';
 
 ```js
 const form = document.getElementById(
-  '#new-task-form',
+  'new-task-form',
 ) as HTMLFormElement | null;
 ```
 
